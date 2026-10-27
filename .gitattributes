@@ -1,0 +1,12 @@
+* text=auto
+*.cs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.meta text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.dll binary
+*.dylib binary
+*.so binary
+*.png binary
+*.jpg binary

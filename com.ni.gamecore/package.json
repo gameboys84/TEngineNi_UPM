@@ -1,0 +1,24 @@
+{
+  "name": "com.ni.gamecore",
+  "displayName": "Ni GameCore",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Reusable UI, save, resource ownership, pooling and foundation helpers. No game entry, protocols or project facade.",
+  "license": "MIT",
+  "author": {
+    "name": "Ni"
+  },
+  "dependencies": {
+    "com.ni.tengine": "0.6.0",
+    "com.cysharp.unitask": "2.5.11",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.textmeshpro": "3.0.7",
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gameboys84/TEngineNi_UPM.git",
+    "directory": "com.ni.gamecore"
+  },
+  "documentationUrl": "https://github.com/gameboys84/TEngineNi_UPM#readme"
+}

@@ -1,0 +1,31 @@
+{
+    "name":  "com.ni.tengine",
+    "displayName":  "Ni TEngine",
+    "version":  "0.6.0",
+    "unity":  "2022.3",
+    "description":  "TEngineNi shared runtime and editor framework. Project settings remain in Assets.",
+    "license":  "MIT",
+    "author":  {
+                   "name":  "Ni"
+               },
+    "dependencies":  {
+                         "com.cysharp.unitask":  "2.5.11",
+                         "com.tuyoogame.yooasset":  "2.3.17",
+                         "com.unity.ugui":  "1.0.0",
+                         "com.unity.textmeshpro":  "3.0.7",
+                         "com.code-philosophy.hybridclr":  "8.8.0",
+                         "com.unity.modules.audio":  "1.0.0",
+                         "com.unity.modules.video":  "1.0.0",
+                         "com.unity.modules.jsonserialize":  "1.0.0",
+                         "com.unity.modules.imgui":  "1.0.0",
+                         "com.unity.modules.unitywebrequesttexture":  "1.0.0",
+                         "com.unity.modules.animation":  "1.0.0",
+                         "com.unity.modules.unitywebrequestaudio":  "1.0.0"
+                     },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gameboys84/TEngineNi_UPM.git",
+                       "directory":  "com.ni.tengine"
+                   },
+    "documentationUrl":  "https://github.com/gameboys84/TEngineNi_UPM#readme"
+}

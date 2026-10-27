@@ -1,0 +1,16 @@
+{
+  "name": "Ni.GameCore.Editor",
+  "references": [
+    "Ni.GameCore",
+    "TEngine.Runtime",
+    "TEngine.Editor",
+    "UniTask",
+    "Unity.ugui",
+    "Unity.TextMeshPro",
+    "Unity.Newtonsoft.Json"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}
