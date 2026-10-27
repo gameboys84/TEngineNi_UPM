@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-namespace UI.Extension
+namespace GameCore
 {
 	//和文本的 Shadow 和 outline 效果配合 ， 渲染顺序不一样，效果也不一样
 

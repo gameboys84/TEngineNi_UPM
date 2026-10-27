@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using System;
@@ -6,7 +7,7 @@ using System.Collections;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 
-namespace UnityEngine.UI
+namespace GameCore
 {
     [AddComponentMenu("")]
     [DisallowMultipleComponent]

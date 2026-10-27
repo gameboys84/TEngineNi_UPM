@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Tap4fun {
+namespace GameCore {
 
     public static class TimeUtility {
         private readonly static DateTime _UnixOriginTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);

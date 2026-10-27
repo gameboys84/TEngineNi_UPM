@@ -6,10 +6,13 @@
 // // [LuaCallCSharp]
 // // [ReflectionUse]
 // #endif
-public static class UnityEngineObjectExtention
+namespace GameCore
 {
-    public static bool IsDestroyed(this UnityEngine.Object o)
+    public static class UnityEngineObjectExtention
     {
-        return o == null;
+        public static bool IsDestroyed(this UnityEngine.Object o)
+        {
+            return o == null;
+        }
     }
 }

@@ -1,6 +1,8 @@
+using UnityEngine;
+using Object = UnityEngine.Object;
 using System;
 using System.Collections.Generic;
-namespace UnityEngine.UI
+namespace GameCore
 {
     /// <summary>Per-list recycling of preloaded prefabs. No legacy global resource manager.</summary>
     [Serializable]

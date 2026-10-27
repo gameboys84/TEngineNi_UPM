@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Tap4fun {
+namespace GameCore {
     public class BezierUtils {
         /// <summary>
         /// 根据T值，计算贝塞尔曲线上面相对应的点

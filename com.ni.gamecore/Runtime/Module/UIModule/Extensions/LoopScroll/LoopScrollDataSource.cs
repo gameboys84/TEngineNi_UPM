@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-namespace UnityEngine.UI
+namespace GameCore
 {
     public abstract class LoopScrollDataSource
     {
