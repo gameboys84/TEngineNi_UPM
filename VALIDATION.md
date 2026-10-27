@@ -11,7 +11,7 @@
 - 消费工程引用同一包源码重新执行 EditMode 3/3、PlayMode 10/10，失败/跳过均为 0，PlayMode 约 35.40 秒。
 - 消费工程完整生成解决方案 .NET 构建成功。首次与 Unity 测试并行构建遇到 Temp 输出被清理，待 Editor 退出后独立重跑通过。
 
-Git 安装预发布验证采用本机 Git transport，验证真实提交、子目录提取与不可写 PackageCache。远端 HTTPS 依赖将在包推送后由消费工程重新解析，并在消费工程文档记录结果。
+Git 安装预发布验证采用本机 Git transport，验证真实提交、子目录提取与不可写 PackageCache。包推送后，又在第三个全新工程从远端 HTTPS 安装完整五包，编译及五组检查通过；消费工程重新解析远端固定提交后 EditMode 3/3、PlayMode 10/10（约 34.89 秒）通过。Ni GameCore/GameRuntime 隔离集成编译重跑 0 错误、7 警告，仍不替代 Ni 独立 Editor 验收。
 
 Ni 源工程 CLI/Pipeline 缺失，尚未取得其独立 Editor/PlayMode 验收。设备、IL2CPP、AOT 元数据、泛型、裁剪、HybridCLR 设备热更新及真实远端资源下载不在此次 Editor 回归范围内。
 
