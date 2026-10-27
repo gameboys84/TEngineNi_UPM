@@ -26,7 +26,7 @@ Ni 共用 Unity 包的独立源码仓库。最低验证环境为 **Unity 2022.3.
 }
 ```
 
-这是开发分支示例。稳定项目将五处 `main` 换为同一个经过验证的完整 40 位 commit SHA，并提交 `manifest.json` 和 Unity 生成的 `packages-lock.json`。若仓库需要认证，预先配置 Git 凭据，或改用 `ssh://git@github.com/gameboys84/TEngineNi_UPM.git`；不要把口令或 token 写入 manifest。
+已验证的固定包提交为 `7a71e9eed0511767df01ac12deaf440d6843fa43`（[验证记录](VALIDATION.md)）。上述为开发分支示例。稳定项目将五处 `main` 换为同一个经过验证的完整 40 位 commit SHA，并提交 `manifest.json` 和 Unity 生成的 `packages-lock.json`。若仓库需要认证，预先配置 Git 凭据，或改用 `ssh://git@github.com/gameboys84/TEngineNi_UPM.git`；不要把口令或 token 写入 manifest。
 
 也可克隆本仓库后运行：
 
