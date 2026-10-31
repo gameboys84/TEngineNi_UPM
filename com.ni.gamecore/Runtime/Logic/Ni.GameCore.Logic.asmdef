@@ -1,0 +1,7 @@
+{
+  "name": "Ni.GameCore.Logic",
+  "rootNamespace": "GameCore",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

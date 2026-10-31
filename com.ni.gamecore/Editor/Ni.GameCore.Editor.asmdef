@@ -5,7 +5,7 @@
     "TEngine.Runtime",
     "TEngine.Editor",
     "UniTask",
-    "Unity.ugui",
+    "UnityEngine.UI",
     "Unity.TextMeshPro",
     "Unity.Newtonsoft.Json"
   ],

@@ -4,7 +4,7 @@
   "references": [
     "TEngine.Runtime",
     "UniTask",
-    "Unity.ugui",
+    "UnityEngine.UI",
     "Unity.TextMeshPro"
   ],
   "autoReferenced": true
