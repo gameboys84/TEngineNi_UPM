@@ -7,7 +7,7 @@
     "YooAsset.MiniGame",
     "UniTask",
     "Unity.TextMeshPro",
-    "Unity.ugui"
+    "UnityEngine.UI"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
